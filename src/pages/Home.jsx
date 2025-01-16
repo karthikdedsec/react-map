@@ -8,7 +8,7 @@ const Home = () => {
       <div className="abu-container">
         <AbuDhabiMap />
       </div>
-      <img src={AbuMap} alt="" className="stock-image" />
+      <img draggable={true} src={AbuMap} alt="" className="stock-image" />
     </section>
   );
 };
